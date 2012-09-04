@@ -1,6 +1,9 @@
 {
     "name": "andrewferk/php-proxy",
     "description": "A PHP Proxy. Amazing.",
+    "homepage": "http://github.com/andrewferk/php-proxy",
+    "keywords": ["proxy"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Andrew Ferk",
@@ -10,5 +13,10 @@
     "require": {
         "php": ">=5.3.10",
         "ext-curl": "*" 
+    },
+    "autoload": {
+        "psr-0": {
+            "andrewferk": "src"
+        }
     }
 }
