@@ -1,0 +1,14 @@
+{
+    "name": "andrewferk/php-proxy",
+    "description": "A PHP Proxy. Amazing.",
+    "authors": [
+        {
+            "name": "Andrew Ferk",
+            "email": "andrewferk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10",
+        "ext-curl": "*" 
+    }
+}
